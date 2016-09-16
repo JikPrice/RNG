@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<title>HOME</title>
+	
+	
+</head>
+<body onload="startTime()">
+	<div id="form">
+		<h1>RNG</h1>
+		<form method="post"> 
+		<input type="text" id="opt1" onkeypress="if (event.keyCode==13)test(this)"> </br>
+		<input type="text" id="opt2" onkeypress="if (event.keyCode==13)test(this)"> </br>
+		<input type="text" id="opt3" onkeypress="if (event.keyCode==13)test(this)"> </br>
+		<input type="text" id="opt4" onkeypress="if (event.keyCode==13)test(this)"> </br>
+		<input type="text" id="opt5" onkeypress="if (event.keyCode==13)test(this)"> </br>
+		<input type="button" value="GENERATE" id="btn" onclick="test(this)">
+		<h3 id="output"></h3>
+	</div>
+	<div id="clock">
+	</div>
+	<script src="scripts.js"></script>
+	
+	
+</body>
+</html>

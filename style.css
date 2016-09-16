@@ -1,0 +1,61 @@
+	
+	@font-face {
+	font-family: 'fixedsys';
+	src: url('FSEX300.ttf') format('truetype');
+	}
+	
+	body {
+	font-family: 'fixedsys';
+	}
+		
+	#form {
+	position: relative;
+	height: 325px;
+	width: 500px;
+	background: #06e;
+	padding-top: 10px;
+	margin: auto;
+	}
+	
+	input {
+	width: 375px;
+	display: inline-block;
+	height: 25px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	margin-top: 5px;
+	margin-left: 60px;
+	border: 1px solid white;
+	padding: none;
+	}
+	
+	#btn {
+		width: 100px;
+		text-align: center;
+		margin-left: 200px;
+		border: 2px solid black;
+	}
+	
+	#btn:hover {
+		background: #fff;
+		color: #09C;
+	}
+	
+	h1 {
+		color: #FFF;
+		text-decoration: underline;
+		font-family: arial;
+		text-align: center;
+	}
+	
+	h3 {
+		color: #FFF;
+		font-family: arial;
+		text-align: center;
+	}
+	
+	
+	#clock {
+	
+	}
+	
